@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Merriweather', serif;
+}
+
 .cabecalho {
-    background-color: #143918;
+    background-color: #20761E;
     color: black;
     display: flex;
     justify-content: space-around
@@ -15,8 +19,53 @@
     width: 5%;
 }
 
+.cabecalho-imagem2{
+   width: 3%;
+}
+
 .cabecalho-lista-item{
     display: inline-block ;
     margin: 0 20px;
     font-size: 30px;
+}
+
+.gremio-imagem{
+    width: 15%;
+    text-align: center;
+}
+
+.gremio{
+    background-image: linear-gradient(#fefffe,#fefffe);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.gremio-icone{
+    width: 2%;
+}
+
+.gremio-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape-lista-item{
+    height: 60px;
+    padding: 12px;
+    font-size: 20px 0;
+}
+
+.rodape-icone{
+    width: 1%;
+}
+
+.rodape{
+    background-color: #20761E;
+    text-align: center;
 }
